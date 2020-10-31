@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main17() {
 
 	// first way of making map
 	fruits := map[string]int{
