@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func main16() {
 	x := []int{1, 2, 3}
 	y := [3]int{1, 2, 3}
 	z := "angel"
