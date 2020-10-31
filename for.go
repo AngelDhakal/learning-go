@@ -1,9 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main7() {
-	for i := 1; i <= 5; i++ {
-		fmt.Println(i)
+func main12() {
+	x := []int{1, 2, 3, 4, 5}
+	result := average(x)
+	fmt.Println(result)
+}
+
+func average(arr []int) int {
+	total := 0
+	for _, i := range arr {
+		total += i
 	}
+	return total
 }

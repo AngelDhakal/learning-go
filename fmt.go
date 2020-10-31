@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main11() {
 	name := "Angel Dhakal"
 	fmt.Printf("Hello %v", name)
 }
