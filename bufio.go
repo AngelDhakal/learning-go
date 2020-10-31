@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func main13() {
 	scanner := bufio.NewScanner(os.Stdin)
 
 	// taking name as user input
